@@ -131,8 +131,8 @@
           <FullPath>018Delete.sql</FullPath>
         </FileNode>
         <FileNode Name="019增刪修的問題探討.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>019增刪修的問題探討.sql</FullPath>
         </FileNode>

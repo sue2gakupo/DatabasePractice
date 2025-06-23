@@ -33,6 +33,7 @@ ContactAddress nvarchar (100) not null,
 foreign key(MemberID) references [Member](MemberID) --table level
 )
 
+
 --訂單明細資料表
 create table[Order table](
 OrderID nchar(12) not null ,  
@@ -47,5 +48,6 @@ create table[Category](
 CateID nchar(2) not null primary  key,
 CateName nvarchar(20) not null
 )
+
 
 
