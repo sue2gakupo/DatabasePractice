@@ -10,6 +10,7 @@ Picture nvarchar(12) not null,
 CreateDateID datetime not null default getdate() 
 )
 
+
 --會員資料表
 create table[Member](
 MemberID nchar(6) not null primary key,
@@ -23,6 +24,7 @@ Password nvarchar(20) not null,
 CreatedDate datetime not null default getdate()
 )
 
+
 --訂單資料表
 create table[Order](
 OrderID nchar (12) not null primary key, --colume level
@@ -34,8 +36,9 @@ foreign key(MemberID) references [Member](MemberID) --table level
 )
 
 
+
 --訂單明細資料表
-create table[Order table](
+create table OrderDetail (
 OrderID nchar(12) not null ,  
 ProductID nchar (5) not null , 
 Qty int not null default 1 ,
@@ -44,10 +47,11 @@ primary key (OrderID,ProductID),
 foreign key(OrderID) references [Order](OrderID),
 )
 
-create table[Category](
+
+--產品類別資料表
+create table Category(
 CateID nchar(2) not null primary  key,
 CateName nvarchar(20) not null
 )
-
 
 
