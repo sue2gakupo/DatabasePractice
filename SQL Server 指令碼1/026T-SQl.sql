@@ -5,9 +5,8 @@
 --140公分以上買全票
 --120公分以下免票
 
-
 declare @height int
-set @height=130
+set @height=111
 
 if @height>=140
 begin 
@@ -18,13 +17,9 @@ else if @height>=120
 
 else
 print '免票'
-
 -----------------------------------------------------------
 --case
-select 員工編號,姓名,名稱,iif(稱呼='小姐','女性','男性') as 性別 from 員工
-
-
-
+  
 --簡單case
 select 員工編號,姓名,稱呼,
 case 稱呼
@@ -39,7 +34,11 @@ from 員工
 --搜尋case(多路徑選擇)
 
 declare @result nvachar(5)
-set @result=
+set @result= 150
 case 
-when@height>= then '全票'
-when@height>= then '全票'
+when @height>=140 then '全票'
+when @height>=120 then '半票'
+else '免票'
+end
+
+print @result
