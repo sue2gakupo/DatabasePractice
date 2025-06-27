@@ -184,6 +184,24 @@
           <AssociatedConnUserName />
           <FullPath>027T-SQL.sql</FullPath>
         </FileNode>
+        <FileNode Name="028Function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>028Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="029Function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>029Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="030Function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>030Function.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="其他" Type="3" Sorted="true">
