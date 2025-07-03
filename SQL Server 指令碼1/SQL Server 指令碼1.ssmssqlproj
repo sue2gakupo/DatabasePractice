@@ -3,6 +3,21 @@
   <Items>
     <LogicalFolder Name="連線" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="C501A110:abc456">
+          <Created>2025-07-03T13:35:32.8160996+08:00</Created>
+          <Type>SQL</Type>
+          <Server>C501A110</Server>
+          <UserName>abc456</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="C501A110:C501A110\user">
           <Created>2025-06-18T14:26:53.9811604+08:00</Created>
           <Type>SQL</Type>
@@ -201,6 +216,18 @@
           <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>030Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="031Stored Procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc456</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc456</AssociatedConnUserName>
+          <FullPath>031Stored Procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="032Stored Procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc456</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc456</AssociatedConnUserName>
+          <FullPath>032Stored Procedure.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
