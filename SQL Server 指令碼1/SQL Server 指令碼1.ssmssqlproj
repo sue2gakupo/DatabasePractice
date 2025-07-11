@@ -18,6 +18,21 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="C501A110:abc789">
+          <Created>2025-07-10T13:28:21.2371407+08:00</Created>
+          <Type>SQL</Type>
+          <Server>C501A110</Server>
+          <UserName>abc789</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>GuestBook</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - 查詢</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="C501A110:C501A110\user">
           <Created>2025-06-18T14:26:53.9811604+08:00</Created>
           <Type>SQL</Type>
@@ -228,6 +243,30 @@
           <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
           <AssociatedConnUserName>abc456</AssociatedConnUserName>
           <FullPath>032Stored Procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="033Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
+          <FullPath>033Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="034Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
+          <FullPath>034Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="035Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
+          <FullPath>035Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="036Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
+          <FullPath>036Trigger.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
