@@ -12,7 +12,7 @@ alter table[Product]
 
  --建立OrderDetail資料表與Product資料表之間的關聯
 alter table[OrderDetail]
-      add foreign key(ProductID) references [Product](ProductID)
+      add foreign key(ProductID) references [Product](ProductID) on delete cascade--cascade就是建立關聯性，通常都是訂單跟訂單明細會做 
 
 
  --假設在系統施作期間有需求變更，要將MemberPoint欄位刪除

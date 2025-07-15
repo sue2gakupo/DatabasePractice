@@ -26,7 +26,7 @@ after update  --在執行insert這個指令之後，在commit之前
 as 
 begin
 	select '新的',* from Inserted
-	union all
+	union all --聯集不做運算
 	select '舊的',* from Deleted
 end
 

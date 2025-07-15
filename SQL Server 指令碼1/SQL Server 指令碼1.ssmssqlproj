@@ -71,8 +71,8 @@
           <FullPath>003Select.sql</FullPath>
         </FileNode>
         <FileNode Name="004Select.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>004Select.sql</FullPath>
         </FileNode>
@@ -131,8 +131,8 @@
           <FullPath>013Select_SubQuery.sql</FullPath>
         </FileNode>
         <FileNode Name="014Select+order_by.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>014Select+order_by.sql</FullPath>
         </FileNode>
@@ -233,15 +233,15 @@
           <FullPath>030Function.sql</FullPath>
         </FileNode>
         <FileNode Name="031Stored Procedure.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc456</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc456</AssociatedConnUserName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
           <FullPath>031Stored Procedure.sql</FullPath>
         </FileNode>
         <FileNode Name="032Stored Procedure.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc456</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
-          <AssociatedConnUserName>abc456</AssociatedConnUserName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
           <FullPath>032Stored Procedure.sql</FullPath>
         </FileNode>
         <FileNode Name="033Trigger.sql">
@@ -267,6 +267,24 @@
           <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
           <AssociatedConnUserName>abc789</AssociatedConnUserName>
           <FullPath>036Trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="037View.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
+          <FullPath>037View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="038SetOperation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
+          <FullPath>038SetOperation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="039CTE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A110:False:abc789</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A110</AssociatedConnSrvName>
+          <AssociatedConnUserName>abc789</AssociatedConnUserName>
+          <FullPath>039CTE.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
